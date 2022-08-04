@@ -11,7 +11,7 @@ function main() {
 
   var supply = prompt("How many images do you want to generate?", "10");
   
-  var monkey = prompt("Which character are you creating?", "");
+  var monkey = prompt("CHANGE TO YOUR INFORMATION", "");
 
   alert(
     supply +
@@ -37,11 +37,11 @@ function main() {
   for (var h = 1; h < parseInt(supply) + 1; h++) {
     var obj = {};
     obj.format = "Chip-0007";
-    obj.name = monkey + "Monkeyzoo collection" + " #" + h;
-    obj.description = "The first ever Monkeyzoo NFTs. A Monkeyzoo special edition to commemorate the launch of NFT1 launching on the Chia blockchain.";
+    obj.name = monkey + "CHANGE TO YOUR INFORMATION" + " #" + h;
+    obj.description = "CHANGE TO YOUR INFORMATION";
     obj.series_number = h;
-    obj.series_total = "1000";
-    obj.minting_tool = "NFTr_minting_tool";
+    obj.series_total = "CHANGE TO YOUR INFORMATION";
+    obj.minting_tool = "CHANGE TO YOUR INFORMATION";
     obj.sensitive_content = "false";
     obj.collection = [];
     obj.attributes = [];
@@ -75,13 +75,13 @@ function main() {
       })();
     }
     obj.collection.push(
-      {name: "Monkeyzoo_collection"},
-            {id: "3d63a115-c341-471c-8e50-377c4cb67f40"},
+      {name: "CHANGE TO YOUR INFORMATION"},
+            {id: "CHANGE TO YOUR INFORMATION"},
             {attributes : [
-              { type : "icon" ,  value : "https://pbs.twimg.com/profile_images/1542615309969985536/wK9gfnMV_400x400.png" },
-              { type : "banner" ,  value : "https://pbs.twimg.com/profile_banners/14711228/1656623125/600x200" },
-              { type : "twitter" , value : "https://twitter.com/monkeyzoo" },
-              { type : "website" , value : "https://www.monkeyzoo.net" }
+              { type : "icon" ,  value : "CHANGE TO YOUR INFORMATION" },
+              { type : "banner" ,  value : "CHANGE TO YOUR INFORMATION" },
+              { type : "twitter" , value : "CHANGE TO YOUR INFORMATION" },
+              { type : "website" , value : "CHANGE TO YOUR INFORMATION" }
               ]})
     saveImage(obj.series_number);
     saveMetadata(obj);
