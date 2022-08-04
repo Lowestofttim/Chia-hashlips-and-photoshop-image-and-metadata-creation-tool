@@ -1,5 +1,9 @@
 # Chia-hashlips-and-photoshop-image-and-metadata-creation-tool
 
+All you will need to do is change the code marked "CHANGE TO YOUR INFORMATION" Inside the JS script.
+
+
+
 This is our example that we used to generate the Monkeyzoo collections.
 
 // Simple art generator by HashLips <->
